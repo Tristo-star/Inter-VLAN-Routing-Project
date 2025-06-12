@@ -44,19 +44,25 @@
 S1
 
 1.       Create and name VLANs on the layer 2 switch (S1) according to the VLAN Table.
-![[Pasted image 20250612122016.png]]
+
+![s1-1](https://github.com/user-attachments/assets/a9645ba4-3e7f-40e2-b95b-4d9833c455b9)
+
 2.       Configure ports and assign to correct VLAN according to the Addressing Table.
-![[Pasted image 20250612122022.png]]
-![[Pasted image 20250612122038.png]]
+
+![s1-2](https://github.com/user-attachments/assets/724c3b4f-b82f-4540-8cf0-c6e85211121f)
+
+![S1-2-2](https://github.com/user-attachments/assets/3a1b0118-2d72-4fb1-b7c4-50f8fd368e74)
+
 
 3.       Configure the management interface VLAN 70 according to the Addressing Table.
 
-![[Pasted image 20250612122046.png]]
-![[Pasted image 20250612122057.png]]
+![S1-3](https://github.com/user-attachments/assets/74ca1ae9-f23b-4243-8f97-463352891e46)
+![S1-3-2](https://github.com/user-attachments/assets/1f337c3b-0e54-4a4e-958f-a263e446b4a6)
+
 
 4.       Configure trunk port G0/1.
 
-![[Pasted image 20250612122110.png]]
+![S1-4](https://github.com/user-attachments/assets/ef7e1d2b-bf29-4cb8-aff5-d3aaa844c6d7)
 
 
 MLS
@@ -65,34 +71,35 @@ MLS
 
    5. Configure ports F0/1 and F0/2  and assign each to correct VLAN according to the Addressing Table.
    
-![[Pasted image 20250612122120.png]]
+![MLS-5](https://github.com/user-attachments/assets/a56e0d55-e4fd-4fff-bd3c-2e3df0364d78)
+
 
    6. Configure and activate the SVI interfaces for VLANs 50, 60, 70, and 100 according to the Addressing Table.
 
-![[Pasted image 20250612122131.png]]
+![MLS-6](https://github.com/user-attachments/assets/ad82e971-0402-4d88-9d56-efc3aa21ca75)
 
    7. Configure Trunking on MLS.
   
-![[Pasted image 20250612122140.png]]
+![MLS-7](https://github.com/user-attachments/assets/2ea89d32-d3e3-47a5-a93c-56bf04dd93b5)
 
    8. Enable routing.
    
-![[Pasted image 20250612122219.png]]
+![MLS-8](https://github.com/user-attachments/assets/78826d09-bbdd-4ca8-8e4e-4ec3255ded1f)
 
 
    9. Configure PCs with correct IP address, subnet mask, and default gateway.
   
-![[Pasted image 20250612122513.png]]  
-![[Pasted image 20250612122553.png]]
+![MLS-9](https://github.com/user-attachments/assets/16f92e64-470a-4f0c-8347-8ea517da7a2d)
+![MLS-9-2](https://github.com/user-attachments/assets/209001f1-9f84-4d4e-b082-2cf615e5c338)
 
   10. Verify end-to-end connectivity between all PCs.
 
-![[Pasted image 20250612122605.png]]
+![MLS-10](https://github.com/user-attachments/assets/f8606932-a923-4f3c-a55c-0dd05109dbb5)
 
 
   11. Change the host name on both switches.
 
-![[Pasted image 20250612122618.png]]
+![MLS-11](https://github.com/user-attachments/assets/b4d7470f-e98d-472c-b97b-2e2eec89b676)
 
 
 ---
@@ -132,8 +139,6 @@ MLS
 ### **7. Future Improvements**
 
 - Automate part of the configuration using CLI scripts to reduce setup time.
-
-- Expand the lab to include router-on-a-stick setup for comparison.
 
 - Add DHCP and DNS configurations to simulate a more complete enterprise environment.
 
